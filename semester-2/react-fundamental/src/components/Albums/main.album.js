@@ -7,7 +7,6 @@ const Albums = (props) => {
     <React.Fragment>
       <Container className='mt-3'>
         <h3>{props.title}</h3>
-        <p>{props.description}</p>
         <Collection />
       </Container>
     </React.Fragment>

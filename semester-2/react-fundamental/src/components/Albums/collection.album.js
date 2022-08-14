@@ -31,7 +31,7 @@ const Collection = () => {
 
   return (
     <React.Fragment>
-      <h3>{limit} Collection</h3>
+      <em className='text-muted'>{limit} Collection</em>
       <Carousel>
         {/* MAPPING START */}
         {datas.map((data, i) => {
